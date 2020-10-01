@@ -16,7 +16,7 @@ And we also add a multi-layer feature fusion module to extract complementary inf
 '''
 3. The pretrained model is avaliable: 'GaitSet_CASIA-B-51700-encoder.ptm' (link: https://pan.baidu.com/s/1Td_J-UPTqS8gmpBmq2_log code: hust)
 
-# Comparsion
+# Comparsion with state-of-the-art methods 
 We evaluate our methods on CASIA-B dataset and compare it with GaitSet(AAAI 2018) and GaitPart(CVPR2020).
 Because of our lab's server's problem, we can't evalute the method on the largest dataset named OU-MVLP.
 
