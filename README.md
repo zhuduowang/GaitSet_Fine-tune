@@ -1,5 +1,5 @@
 # Introduction
-A fine-tune of GaitSet and evaluate it on CASIA-B dataset.
+A fine-tuning of GaitSet and evaluate it on CASIA-B dataset.
 
 # What we have done
 We add a new module to extract the fine-grained feature.
@@ -8,11 +8,11 @@ And we also add a multi-layer feature fusion module to extract complementary inf
 # Train or test
 1. If you want to train the model on your dataset, you just need to configure the 'config.py' file to change the dataset path.
 '''bash
-python train.py
+  python train.py
 '''
 2. If you just want to evaluate the model, you need to download the pretrained model and put it in "./work/checkpoint/GaitSet" folder.
 '''bash
-python test.py --iter=51700
+  python test.py --iter=51700
 '''
 3. The pretrained model is avaliable: 'GaitSet_CASIA-B-51700-encoder.ptm' (link: https://pan.baidu.com/s/1Td_J-UPTqS8gmpBmq2_log code: hust)
 
@@ -20,7 +20,7 @@ python test.py --iter=51700
 We evaluate our methods on CASIA-B dataset and compare it with GaitSet(AAAI 2018) and GaitPart(CVPR2020).
 Because of our lab's server's problem, we can't evalute the method on the largest dataset named OU-MVLP.
 
-## Table 1. Compasion with GaitSet on CASIA-B dataset.
+## Table 1. Comparsion with GaitSet on CASIA-B dataset.
 ---------------------------------------------------
 model             |    NM    |    BG    |    CL    |
 ------------------|----------|----------|----------|
